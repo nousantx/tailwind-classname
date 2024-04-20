@@ -1,3 +1,13 @@
+/*!
+ * tailwind styles (https://github.com/nousantx/tailwind-classname)
+ * Copyright (c) 2024 NOuSantx
+ * Licensed under the MIT License (https://github.com/tenoxui/css/blob/main/LICENSE)
+ *
+ * Tailwind CSS (https://tailwindcss.com/)
+ * Copyright (c) 2024 Tailwind Labs Inc.
+ * Licensed under the MIT License (https://github.com/tailwindlabs/tailwindcss/blob/next/LICENSE)
+ */
+
 const props = {
   col: "column",
   float: "float",
@@ -55,10 +65,23 @@ const props = {
   "bdr-is-width": "border-inline-start-width",
   "bdr-ie-width": "border-inline-end-width",
 
+  ol: "outline",
+  "ol-w": "outlineWidth",
+  "ol-c": "outlineColor",
+  "ol-s": "outlineStyle",
+  "ol-o": "outlineOffset",
+
+  shadow: "boxShadow",
+
+  "blend-mode": "mixBlendMode",
+  "bg-blend": "backgroundBlendMode",
+
   "os-b": "overscrollBehavior",
   "os-b-x": "overscrollBehaviorX",
   "os-b-y": "overscrollBehaviorY",
 
   "web-fs": "-webkit-font-smoothing",
   "moz-fs": "-moz-osx-font-smoothing",
+
+  "bd-colp": "borderCollapse",
 };

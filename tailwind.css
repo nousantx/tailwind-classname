@@ -1,6 +1,7 @@
 :root {
   --tx__square: 1/1;
   --tx__video: 16/9;
+  --tx__current-color: currentColor;
   --tx__avoid-page: avoid-page;
   --tx__avoid-column: avoid-column;
   --tx__border-box: border-box;
@@ -57,10 +58,33 @@
   --tx__no-repeat: no-repeat;
   --tx__repeat-x: repeat-x;
   --tx__repeat-y: repeat-y;
-
-  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+  --tx__color-dodge: color-dodge;
+  --tx__color-burn: color-burn;
+  --tx__hard-light: hard-light;
+  --tx__soft-light: soft-light;
+  --tx__plus-darker: plus-darker;
+  --tx__plus-lighter: plus-lighter;
+  --tx__font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+  --tx__font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --tx__font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+  --tx__shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tx__shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tx__shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tx__shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tx__shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tx__shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tx__shadow-none: 0 0 #0000;
+  --tx__cubix-bez: cubic-bezier(0.4, 0, 0.2, 1);
+  --tx__ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --tx__ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --tx__ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --tx__tr-prop: color, background-color, border-color, text-decoration-color,
+    fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  --tx__tr-color: color, background-color, border-color, text-decoration-color;
+  --tx__bs: box-shadow;
 }
